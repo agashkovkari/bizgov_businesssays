@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Открытый диалог с городом по ключевым отраслевым проблемам</title>
-  <link rel="stylesheet" href="./css/style.css?v=23051001">
+  <link rel="stylesheet" href="./css/style.css?v=23051002">
   <link rel="stylesheet" href="./css/swiper-bundle.min.css?v=27042023">
 
   <!-- Yandex.Metrika counter -->
@@ -50,18 +50,20 @@
   <!-- Начало блока -->
   <!-- Конец блока -->
   <section class="wrapper px-0 md:px-7.5 lg:px-12.5 overflow-visible">
-    <div class="container h-0 !px-0 !pt-0 !pb-[56.25%] font-secondary mb-5 md:mb-7.5 lg:mb-10 overflow-visible">
-      <div class="px-7.5 lg:px-12.5 pt-12.5 md:pt-17.5 lg:pt-25 pb-5 md:pb-7.5 lg:pb-10">
-        <img class="absolute -top-[20px] md:-top-[35px] lg:-top-[60px] w-[140px] md:w-[230px] lg:w-[370px] z-20"
-          src="./img/bizgov.svg" alt="">
+    <div class="container !p-0 font-secondary mb-5 md:mb-7.5 lg:mb-10 overflow-visible">
+      <div class="relative h-0 pb-[56.25%]">
+        <div class="px-7.5 lg:px-12.5 pt-12.5 md:pt-17.5 lg:pt-25 pb-5 md:pb-7.5 lg:pb-10">
+          <img class="absolute -top-[20px] md:-top-[35px] lg:-top-[60px] w-[140px] md:w-[230px] lg:w-[370px] z-20"
+            src="./img/bizgov.svg" alt="">
+        </div>
+        <video
+          class="absolute top-0 left-0 w-full h-full object-cover z-10 rounded-none md:rounded-[34px] overflow-hidden"
+          controls poster="./img/video-banner.jpg" no-controls autoplay loop playsinline muted
+          style="pointer-events: none;">
+          <source src="./media/video-banner.webm" type="video/webm">
+          <source src="./media/video-banner.mp4" type="video/mp4" />
+        </video>
       </div>
-      <video
-        class="absolute top-0 left-0 w-full h-full object-cover z-10 rounded-none md:rounded-[34px] overflow-hidden"
-        controls poster="./img/video-banner.jpg" no-controls autoplay loop playsinline muted
-        style="pointer-events: none;">
-        <source src="./media/video-banner.webm" type="video/webm">
-        <source src="./media/video-banner.mp4" type="video/mp4" />
-      </video>
     </div>
   </section>
   <!-- Конец блока -->
@@ -131,7 +133,7 @@
   <!-- Конец блока -->
 
   <script src="./js/swiper-bundle.min.js?v=27042023"></script>
-  <script src="./js/common.js?v=23051001"></script>
+  <script src="./js/common.js?v=23051002"></script>
 </body>
 
 </html>
